@@ -1,0 +1,70 @@
+Classes:
+	
+	Cliente
+----------  ---------- 
+	Conta Corrente
+	Conta Popupança
+	Conta Salário
+----------  ---------- 
+	Agência
+----------  ---------- 
+	Funcionário -> Gerente
+
+
+Cada classe tem:
+	
+----------------------- -----------------------
+	Cliente
+- CPF
+- NOME
+- ENDEREÇO COMPLETO (criação de classe endereço?)
+- ESTADO CIVIL
+- ESCOLARIDADE
+- DATA DE NASCIMENTO
+----------------------- -----------------------
+
+----------------------- -----------------------
+	Conta (As outras também devem ter esses campos)
+- SENHA
+- NRO CONTA
+- SALDO ATUAL
+- DATA ABERTURA
+- DATA ULTIMA MOVIMENTAÇÃO
+
+	Conta Corrente
+- LIMITE DE CHEQUE ESPECIAL
+- VALOR DA TAXA ADMINISTRATIVA
+
+	Conta Poupança
+- RENDIMENTO DO MÊS ATUAL
+
+	Conta Salario
+- LIMITE PARA SAQUE
+- LIMITE PARA TRANSFERÊNCIA
+----------------------- -----------------------
+
+----------------------- -----------------------
+	Funcionário (Gerente também deve ter)
+- CPF
+- NOME COMPLETO
+- NRO DA CARTEIRA DE TRABALHO
+- RG
+- DATA NASCIMENTO
+- ENDEREÇO
+- SEXO
+- ESTADO CIVIL
+- CARGO NA EMPRESA
+- SALARIO
+- ANO INGRESSO
+
+	Gerente
+- DATA INGRESSO NA CARREIRA GERENTE
+- AGENCIA QUE É GERENTE
+- SE POSSUI CURSOS DE FORMAÇÃO BÁSICO EM GERÊNCIA
+----------------------- -----------------------
+
+----------------------- -----------------------
+	Agência
+- NRO
+- NOME
+- ENDEREÇO
