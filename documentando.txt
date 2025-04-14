@@ -5,3 +5,9 @@
     * Não foi adicionados os métodos SET/GETTERS ainda.
     * Não foi adicionados os métodos de cada classe.    
     * Não foi feito a relação de cada classe.
+- 14/04
+    * Posteriormente, entender o que fazer com o "cliente" e a "data" dentro do construtor da classe Transação.
+    * Implementado método especificado em 3, item j.
+    * Feito o número 2. Classe para validação na pasta outros/validarCPF.java
+    * Relacionado ao número 3, implementado a, b, c, e, f, g, h, i, j, k
+    * Número 5, item a, feito.

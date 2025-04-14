@@ -6,17 +6,21 @@ import java.time.LocalDate;
 import enums.EstadoCivil;
 import enums.Sexo;
 
-public class Funcionario {
-    private String nomeCompleto;
-    private String cpf;
-    private String rg;
+public class Funcionario extends Pessoa {
     private int nro_cart;
-    private LocalDate dataNascimento;
-    private Endereco endereco;
-    private Sexo sexo;
-    private EstadoCivil estadoCivil;
     private String cargo;
+    private Sexo sexo;
     private BigDecimal salario;
     private LocalDate anoIngresso;
 
+    public BigDecimal CalcSalario() {
+        if (anoIngresso.isBefore(LocalDate.now().minusYears(15)))
+            return salario.multiply(new BigDecimal("1.1"));
+        else
+            return salario;
+    }
+
+    public BigDecimal getSalario() {
+        return salario;
+    }
 }

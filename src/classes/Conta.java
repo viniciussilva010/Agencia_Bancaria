@@ -9,5 +9,4 @@ public abstract class Conta {
     protected BigDecimal saldo;
     protected LocalDateTime data_abertura;
     protected LocalDateTime ult_movimentacao;
-
 }

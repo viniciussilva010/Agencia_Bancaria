@@ -11,4 +11,12 @@ public class Cliente {
     private Endereco endereco;
     private EstadoCivil est_civil;
 
+    public Cliente() {
+    }
+
+    public Cliente(String nome, String cpf) {
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+
 }
